@@ -4,5 +4,24 @@
 # CT-TIME-public
 Repository for the Computed Tomography - Tumor Inflamed MicroEnvironment (CT-TIME) signature and analysis codes. 
 
-Codes to the manuscript:
+## Codes to the manuscript:
 "Radiomics Signature for Dynamic Monitoring of Tumour Inflamed Microenvironment and Immunotherapy Response Prediction"
+
+### Models taining files: 
+- CT-TIME_signature.R
+- CT-TIME_model_training.R
+- CT-TIME_model_training_different_models.R
+- CT-TIME_model_evaluation.R
+- *_CT-TIME.rds (output model files)
+
+### Model validation files:
+- CT-TIME_model_validation_other_models.R
+- CT-TIME_model_validation.R
+
+### Model biological interpretation:
+- CT-TIME_model_interpretation.R
+
+### Clinical evaluation:
+- CT-TIME_spatial_heterogeneity_and_score_aggregation.R
+- CT-TIME_response_prediction.R
+- CT-TIME_response_monitoring_per_patient_FU_BR.R
